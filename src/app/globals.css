@@ -7,16 +7,16 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-background: #981d26;
+  --color-background: #ff2c01;
   --color-foreground: #ffffff;
 
-  --color-card: #981d26;
+  --color-card: #ff2c01;
   --color-card-foreground: #ffffff;
 
-  --color-popover: #981d26;
+  --color-popover: #ff2c01;
   --color-popover-foreground: #ffffff;
 
-  --color-primary: #981d26;
+  --color-primary: #ff2c01;
   --color-primary-foreground: #ffffff;
 
   --color-secondary: #e4b363;
@@ -41,7 +41,7 @@
   --color-chart-4: #f1c40f;
   --color-chart-5: #e74c3c;
 
-  --color-sidebar: #981d26;
+  --color-sidebar: #ff2c01;
   --color-sidebar-foreground: #ffffff;
   --color-sidebar-primary: #e4b363;
   --color-sidebar-primary-foreground: #ffffff;

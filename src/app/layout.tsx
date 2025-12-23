@@ -6,15 +6,15 @@ import Script from 'next/script';
 
 // --- Metadata Configuration ---
 export const metadata: Metadata = {
-  title: "McDonald's Reviewer",
+  title: 'DoorDash Reviewer',
   description: 'Claim Your Bearista Cup',
 
   icons: {
     icon: {
-      url: '/mcdo-logo-m.png',
+      url: '/doordash-logo.png',
       type: 'image/png',
     },
-    shortcut: '/mcdo-logo-m.png',
+    shortcut: '/doordash-logo.png',
   },
 };
 

@@ -5,7 +5,7 @@ const SocialFooter = () => {
     <>
       <div className="flex justify-center gap-1.5 mb-2">
         <a
-          href="https://www.linkedin.com/company/mcdonald's-corporation/"
+          href="https://www.linkedin.com/company/DoorDash-corporation/"
           aria-label="LinkedIn"
           className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#980f0f]"
         >
@@ -19,7 +19,7 @@ const SocialFooter = () => {
           <Facebook className="w-3 h-3 text-foreground" />
         </a>
         <a
-          href="https://www.instagram.com/mcdonalds/"
+          href="https://www.instagram.com/doordash/"
           aria-label="Instagram"
           className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#980f0f]"
         >

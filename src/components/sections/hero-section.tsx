@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Gift, Sparkles, Snowflake, Star } from 'lucide-react';
-import McDonaldsGiftCard from './McDonaldsGiftCard';
+import DoorDashGiftCard from './DoorDashGiftCard';
 
 const HeroSection = () => {
   return (
@@ -8,8 +8,8 @@ const HeroSection = () => {
       <div className="mb-1.5 flex flex-col items-center">
         <div className="w-8 h-8 mb-0.5">
           <Image
-            src="/mcdo-logo-m.png"
-            alt="McDonald's Logo"
+            src="/doordash-logo.png"
+            alt="DoorDash Logo"
             width={32}
             height={32}
             className="w-full h-full object-contain drop-shadow-xl"
@@ -19,7 +19,7 @@ const HeroSection = () => {
 
       <div className="relative mb-1.5 animate-float-gentle">
         <div className="relative inline-block">
-          <McDonaldsGiftCard />
+          <DoorDashGiftCard />
 
           <div className="absolute inset-0 bg-gradient-radial from-accent/20 to-transparent blur-3xl -z-10"></div>
         </div>
@@ -27,9 +27,9 @@ const HeroSection = () => {
 
       <h1 className="text-lg md:text-xl font-bold text-foreground mb-1.5 text-shadow-glow px-2 relative">
         <Star className="w-2.5 h-2.5 text-accent absolute -top-0.5 left-3 animate-pulse" />
-        Claim Your{' '}
+        Unlock{' '}
         <span className="inline-flex items-center gap-1 !text-[#f01010]">
-          McDonald's Gift Card
+          DoorDash Gift Card
           <Gift className="w-4 h-4 inline-block !text-[#db1311]" />
         </span>
         <br />
@@ -44,7 +44,7 @@ const HeroSection = () => {
           className="font-bold !w-[148px] !h-[17px]"
           style={{ color: 'hsl(40 60% 65%)' }}
         >
-          $100 holiday gift card
+          $750 gift card
         </span>
         <Sparkles className="w-2.5 h-2.5 text-accent inline-block ml-1 animate-pulse" />
       </p>
